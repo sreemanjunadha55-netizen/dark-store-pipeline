@@ -1,3 +1,4 @@
+import json
 import numpy as np
 import pandas as pd
 from pathlib import Path
@@ -11,6 +12,15 @@ OUT = Path("data/raw")
 TRUTH = Path("data/truth")
 
 rng = np.random.default_rng(SEED)
+
+
+# ---------- Weather effects on demand ----------
+RAIN_THRESHOLD_MM = 0.5
+DEFAULT_RAIN_BOOST = 1.25
+RAIN_BOOST = {"P009": 1.5, "P010": 1.5, "P014": 1.4}
+HOT_THRESHOLD_C = 30
+HEAT_BOOST = {"P011": 1.4, "P012": 1.4, "P013": 1.6}
+
 
 # ---------- Stores ----------
 stores = pd.DataFrame(
@@ -68,13 +78,34 @@ shape = HOUR_FACTOR[hour_of_day] * weekend_factor
 
 store_size = dict(zip(stores["store_id"], rng.uniform(0.7, 1.4, len(stores)).round(2)))
 
+
+
+# ---------- Load real weather ----------
+weather_files = sorted((OUT / "weather").glob("date=*/weather.parquet"))
+if not weather_files:
+    raise SystemExit("No weather files found. Run data_generator/fetch_weather.py first.")
+
+weather = pd.concat([pd.read_parquet(f) for f in weather_files], ignore_index=True)
+rain = weather.pivot(index="weather_ts", columns="city", values="precipitation_mm").reindex(hours)
+temp = weather.pivot(index="weather_ts", columns="city", values="temperature_c").reindex(hours)
+print("Weather hours matched:", int(rain.notna().all(axis=1).sum()), "of", len(hours))
+
+rain = rain.fillna(0)
+temp = temp.ffill().bfill()
+is_rain = {city: rain[city].to_numpy() > RAIN_THRESHOLD_MM for city in rain.columns}
+is_hot = {city: temp[city].to_numpy() >= HOT_THRESHOLD_C for city in temp.columns}
+
+
+
 # ---------- Simulation ----------
 order_rows, snap_rows, truth_rows = [], [], []
 
 for s in stores.itertuples():
     size = store_size[s.store_id]
     for p in products.itertuples():
-        demand = rng.poisson(p.base_per_hour * size * shape)
+        rain_mult = np.where(is_rain[s.city], RAIN_BOOST.get(p.product_id, DEFAULT_RAIN_BOOST), 1.0)
+        heat_mult = np.where(is_hot[s.city], HEAT_BOOST.get(p.product_id, 1.0), 1.0)
+        demand = rng.poisson(p.base_per_hour * size * shape * rain_mult * heat_mult)
         cover = rng.uniform(0.8, 1.3)
         restock_qty = max(5, int(p.base_per_hour * size * HOUR_FACTOR.sum() * cover))
         stock = restock_qty
@@ -141,6 +172,15 @@ products.to_csv(OUT / "products.csv", index=False)
 write_daily(orders, "order_ts", "orders")
 write_daily(inventory, "snapshot_ts", "inventory")
 truth.to_parquet(TRUTH / "lost_sales_truth.parquet", index=False)
+
+weather_effects = {
+    "rain_threshold_mm": RAIN_THRESHOLD_MM,
+    "default_rain_boost": DEFAULT_RAIN_BOOST,
+    "rain_boost_by_product": RAIN_BOOST,
+    "hot_threshold_c": HOT_THRESHOLD_C,
+    "heat_boost_by_product": HEAT_BOOST,
+}
+(TRUTH / "weather_effects.json").write_text(json.dumps(weather_effects, indent=2))
 
 print("Stores:", len(stores), "| Products:", len(products))
 print("Order rows:", len(orders), "(includes", len(dups), "duplicates)")
