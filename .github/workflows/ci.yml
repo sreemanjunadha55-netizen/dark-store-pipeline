@@ -30,7 +30,9 @@ jobs:
         run: ruff check src tests
 
       - name: Unit tests
-        run: pytest -v
+        run: python -m pytest -v tests
+        env:
+          PYTHONPATH: src
 
       - name: Validate Bicep
         run: az bicep build --file infra/main.bicep --stdout > /dev/null
