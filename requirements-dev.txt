@@ -1,0 +1,4 @@
+-r requirements.txt
+pytest
+pyspark>=4.0
+ruff

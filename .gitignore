@@ -3,3 +3,9 @@ data/
 __pycache__/
 *.parquet
 .env
+
+.pytest_cache/
+.ruff_cache/
+spark-warehouse/
+metastore_db/
+derby.log
