@@ -8,11 +8,11 @@ SKIP_DIRS = {".git", ".venv", "data", "__pycache__", ".pytest_cache", ".ruff_cac
 SCAN_SUFFIXES = {".py", ".bicep", ".yml", ".yaml", ".md", ".json", ".txt", ".sql", ".ini", ".toml"}
 
 PATTERNS = {
-    "storage account key": re.compile(r"AccountKey\s*=", re.I),
-    "connection string": re.compile(r"DefaultEndpointsProtocol\s*=", re.I),
+    "storage account key": re.compile(r"AccountKey\s*=", re.IGNORECASE),
+    "connection string": re.compile(r"DefaultEndpointsProtocol\s*=", re.IGNORECASE),
     "SAS token": re.compile(r"[?&]sig=[A-Za-z0-9%+/=]{20,}"),
     "private key": re.compile(r"-----BEGIN [A-Z ]*PRIVATE KEY-----"),
-    "hard-coded password": re.compile(r"password\s*[:=]\s*[\"'][^\"']{4,}[\"']", re.I),
+    "hard-coded password": re.compile(r"password\s*[:=]\s*[\"'][^\"']{4,}[\"']", re.IGNORECASE),
     "databricks token": re.compile(r"\bdapi[0-9a-f]{32}\b"),
 }
 
