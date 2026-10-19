@@ -1,0 +1,290 @@
+[
+ {
+  "hour_of_day": 0,
+  "is_weekend": false,
+  "shape": 0.1648307886397149,
+  "rows_used": 755
+ },
+ {
+  "hour_of_day": 1,
+  "is_weekend": false,
+  "shape": 0.07488129013284028,
+  "rows_used": 745
+ },
+ {
+  "hour_of_day": 2,
+  "is_weekend": false,
+  "shape": 0.0766225475930607,
+  "rows_used": 741
+ },
+ {
+  "hour_of_day": 3,
+  "is_weekend": false,
+  "shape": 0.08161794622822173,
+  "rows_used": 732
+ },
+ {
+  "hour_of_day": 4,
+  "is_weekend": false,
+  "shape": 0.1632047164365646,
+  "rows_used": 723
+ },
+ {
+  "hour_of_day": 5,
+  "is_weekend": false,
+  "shape": 0.3214918054126605,
+  "rows_used": 696
+ },
+ {
+  "hour_of_day": 6,
+  "is_weekend": false,
+  "shape": 0.7128726753477674,
+  "rows_used": 945
+ },
+ {
+  "hour_of_day": 7,
+  "is_weekend": false,
+  "shape": 1.114431027628853,
+  "rows_used": 941
+ },
+ {
+  "hour_of_day": 8,
+  "is_weekend": false,
+  "shape": 1.302659696115819,
+  "rows_used": 942
+ },
+ {
+  "hour_of_day": 9,
+  "is_weekend": false,
+  "shape": 1.0248578591769155,
+  "rows_used": 943
+ },
+ {
+  "hour_of_day": 10,
+  "is_weekend": false,
+  "shape": 0.8168586201718021,
+  "rows_used": 945
+ },
+ {
+  "hour_of_day": 11,
+  "is_weekend": false,
+  "shape": 0.8610678305242573,
+  "rows_used": 944
+ },
+ {
+  "hour_of_day": 12,
+  "is_weekend": false,
+  "shape": 1.0222061797641955,
+  "rows_used": 945
+ },
+ {
+  "hour_of_day": 13,
+  "is_weekend": false,
+  "shape": 0.9436625090649688,
+  "rows_used": 944
+ },
+ {
+  "hour_of_day": 14,
+  "is_weekend": false,
+  "shape": 0.7663573025689978,
+  "rows_used": 943
+ },
+ {
+  "hour_of_day": 15,
+  "is_weekend": false,
+  "shape": 0.7826160733874398,
+  "rows_used": 944
+ },
+ {
+  "hour_of_day": 16,
+  "is_weekend": false,
+  "shape": 0.8638132359630971,
+  "rows_used": 945
+ },
+ {
+  "hour_of_day": 17,
+  "is_weekend": false,
+  "shape": 1.125968374873398,
+  "rows_used": 946
+ },
+ {
+  "hour_of_day": 18,
+  "is_weekend": false,
+  "shape": 1.5574571467637324,
+  "rows_used": 943
+ },
+ {
+  "hour_of_day": 19,
+  "is_weekend": false,
+  "shape": 1.6889431092145948,
+  "rows_used": 942
+ },
+ {
+  "hour_of_day": 20,
+  "is_weekend": false,
+  "shape": 1.6008025178731802,
+  "rows_used": 932
+ },
+ {
+  "hour_of_day": 21,
+  "is_weekend": false,
+  "shape": 1.2691294234386683,
+  "rows_used": 905
+ },
+ {
+  "hour_of_day": 22,
+  "is_weekend": false,
+  "shape": 0.7305019268010406,
+  "rows_used": 868
+ },
+ {
+  "hour_of_day": 23,
+  "is_weekend": false,
+  "shape": 0.35504226974378306,
+  "rows_used": 851
+ },
+ {
+  "hour_of_day": 0,
+  "is_weekend": true,
+  "shape": 0.22289682959993223,
+  "rows_used": 211
+ },
+ {
+  "hour_of_day": 1,
+  "is_weekend": true,
+  "shape": 0.11772894287867877,
+  "rows_used": 207
+ },
+ {
+  "hour_of_day": 2,
+  "is_weekend": true,
+  "shape": 0.10768999707889458,
+  "rows_used": 201
+ },
+ {
+  "hour_of_day": 3,
+  "is_weekend": true,
+  "shape": 0.09935234399728181,
+  "rows_used": 197
+ },
+ {
+  "hour_of_day": 4,
+  "is_weekend": true,
+  "shape": 0.17508543862623627,
+  "rows_used": 193
+ },
+ {
+  "hour_of_day": 5,
+  "is_weekend": true,
+  "shape": 0.3699798385374801,
+  "rows_used": 180
+ },
+ {
+  "hour_of_day": 6,
+  "is_weekend": true,
+  "shape": 0.8821124218531876,
+  "rows_used": 344
+ },
+ {
+  "hour_of_day": 7,
+  "is_weekend": true,
+  "shape": 1.3908152908973572,
+  "rows_used": 344
+ },
+ {
+  "hour_of_day": 8,
+  "is_weekend": true,
+  "shape": 1.6586960570429572,
+  "rows_used": 344
+ },
+ {
+  "hour_of_day": 9,
+  "is_weekend": true,
+  "shape": 1.2918994075438424,
+  "rows_used": 343
+ },
+ {
+  "hour_of_day": 10,
+  "is_weekend": true,
+  "shape": 1.0593223718324223,
+  "rows_used": 343
+ },
+ {
+  "hour_of_day": 11,
+  "is_weekend": true,
+  "shape": 1.0935329231701587,
+  "rows_used": 343
+ },
+ {
+  "hour_of_day": 12,
+  "is_weekend": true,
+  "shape": 1.2988158358574542,
+  "rows_used": 344
+ },
+ {
+  "hour_of_day": 13,
+  "is_weekend": true,
+  "shape": 1.2176398461163633,
+  "rows_used": 344
+ },
+ {
+  "hour_of_day": 14,
+  "is_weekend": true,
+  "shape": 0.9808692711876026,
+  "rows_used": 342
+ },
+ {
+  "hour_of_day": 15,
+  "is_weekend": true,
+  "shape": 0.9907354626071041,
+  "rows_used": 343
+ },
+ {
+  "hour_of_day": 16,
+  "is_weekend": true,
+  "shape": 1.1029512086798374,
+  "rows_used": 343
+ },
+ {
+  "hour_of_day": 17,
+  "is_weekend": true,
+  "shape": 1.3655605385334622,
+  "rows_used": 344
+ },
+ {
+  "hour_of_day": 18,
+  "is_weekend": true,
+  "shape": 1.8451071065451414,
+  "rows_used": 339
+ },
+ {
+  "hour_of_day": 19,
+  "is_weekend": true,
+  "shape": 2.1463717536001807,
+  "rows_used": 319
+ },
+ {
+  "hour_of_day": 20,
+  "is_weekend": true,
+  "shape": 1.8234537362213994,
+  "rows_used": 259
+ },
+ {
+  "hour_of_day": 21,
+  "is_weekend": true,
+  "shape": 1.4713680174128412,
+  "rows_used": 186
+ },
+ {
+  "hour_of_day": 22,
+  "is_weekend": true,
+  "shape": 0.8089342294055328,
+  "rows_used": 145
+ },
+ {
+  "hour_of_day": 23,
+  "is_weekend": true,
+  "shape": 0.40275571461818643,
+  "rows_used": 122
+ }
+]

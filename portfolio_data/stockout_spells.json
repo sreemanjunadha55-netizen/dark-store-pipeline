@@ -1,0 +1,90 @@
+{
+ "summary": {
+  "spells": 2974,
+  "avg_empty_hours": 9.115332885003362,
+  "longest_spell": 20,
+  "total_empty_hours": 27109
+ },
+ "by_start_hour": [
+  {
+   "first_empty_hour_of_day": 0,
+   "count": 72
+  },
+  {
+   "first_empty_hour_of_day": 1,
+   "count": 40
+  },
+  {
+   "first_empty_hour_of_day": 2,
+   "count": 39
+  },
+  {
+   "first_empty_hour_of_day": 3,
+   "count": 32
+  },
+  {
+   "first_empty_hour_of_day": 4,
+   "count": 63
+  },
+  {
+   "first_empty_hour_of_day": 5,
+   "count": 120
+  },
+  {
+   "first_empty_hour_of_day": 10,
+   "count": 4
+  },
+  {
+   "first_empty_hour_of_day": 11,
+   "count": 2
+  },
+  {
+   "first_empty_hour_of_day": 12,
+   "count": 5
+  },
+  {
+   "first_empty_hour_of_day": 13,
+   "count": 19
+  },
+  {
+   "first_empty_hour_of_day": 14,
+   "count": 26
+  },
+  {
+   "first_empty_hour_of_day": 15,
+   "count": 33
+  },
+  {
+   "first_empty_hour_of_day": 16,
+   "count": 71
+  },
+  {
+   "first_empty_hour_of_day": 17,
+   "count": 107
+  },
+  {
+   "first_empty_hour_of_day": 18,
+   "count": 284
+  },
+  {
+   "first_empty_hour_of_day": 19,
+   "count": 463
+  },
+  {
+   "first_empty_hour_of_day": 20,
+   "count": 576
+  },
+  {
+   "first_empty_hour_of_day": 21,
+   "count": 547
+  },
+  {
+   "first_empty_hour_of_day": 22,
+   "count": 326
+  },
+  {
+   "first_empty_hour_of_day": 23,
+   "count": 145
+  }
+ ]
+}

@@ -1,0 +1,386 @@
+{
+ "runs": [
+  {
+   "run_id": "cc342440",
+   "checks": 38,
+   "failed": 0,
+   "run_at_ist": "2026-10-18 18:20"
+  },
+  {
+   "run_id": "dfc0a019",
+   "checks": 38,
+   "failed": 0,
+   "run_at_ist": "2026-10-18 19:04"
+  },
+  {
+   "run_id": "c98f5a1f",
+   "checks": 38,
+   "failed": 0,
+   "run_at_ist": "2026-10-18 23:31"
+  },
+  {
+   "run_id": "9a9f40f8",
+   "checks": 38,
+   "failed": 0,
+   "run_at_ist": "2026-10-19 00:18"
+  },
+  {
+   "run_id": "9cf597b0",
+   "checks": 38,
+   "failed": 0,
+   "run_at_ist": "2026-10-19 01:17"
+  },
+  {
+   "run_id": "c83c94b8",
+   "checks": 38,
+   "failed": 0,
+   "run_at_ist": "2026-10-19 02:17"
+  },
+  {
+   "run_id": "4e99b9ca",
+   "checks": 38,
+   "failed": 0,
+   "run_at_ist": "2026-10-19 03:17"
+  },
+  {
+   "run_id": "151ef9ef",
+   "checks": 38,
+   "failed": 0,
+   "run_at_ist": "2026-10-19 04:17"
+  },
+  {
+   "run_id": "807c585f",
+   "checks": 38,
+   "failed": 0,
+   "run_at_ist": "2026-10-19 05:17"
+  },
+  {
+   "run_id": "4c2c21e0",
+   "checks": 38,
+   "failed": 0,
+   "run_at_ist": "2026-10-19 06:17"
+  },
+  {
+   "run_id": "5cfc7f97",
+   "checks": 38,
+   "failed": 0,
+   "run_at_ist": "2026-10-19 07:15"
+  },
+  {
+   "run_id": "43167541",
+   "checks": 38,
+   "failed": 0,
+   "run_at_ist": "2026-10-19 08:18"
+  },
+  {
+   "run_id": "fd1094a5",
+   "checks": 38,
+   "failed": 0,
+   "run_at_ist": "2026-10-19 09:16"
+  },
+  {
+   "run_id": "63a557de",
+   "checks": 38,
+   "failed": 0,
+   "run_at_ist": "2026-10-19 10:12"
+  },
+  {
+   "run_id": "8a3ecafa",
+   "checks": 38,
+   "failed": 0,
+   "run_at_ist": "2026-10-19 11:17"
+  },
+  {
+   "run_id": "d44e3ab1",
+   "checks": 38,
+   "failed": 1,
+   "run_at_ist": "2026-10-19 13:21"
+  },
+  {
+   "run_id": "e85a886b",
+   "checks": 38,
+   "failed": 1,
+   "run_at_ist": "2026-10-19 14:38"
+  },
+  {
+   "run_id": "fff295ab",
+   "checks": 38,
+   "failed": 1,
+   "run_at_ist": "2026-10-19 15:00"
+  },
+  {
+   "run_id": "6d0270a1",
+   "checks": 38,
+   "failed": 1,
+   "run_at_ist": "2026-10-19 15:26"
+  }
+ ],
+ "check_catalog": [
+  {
+   "layer": "completeness",
+   "table_name": "orders",
+   "check_name": "days between first and last order",
+   "severity": "error"
+  },
+  {
+   "layer": "completeness",
+   "table_name": "orders",
+   "check_name": "days with unusual order volume (vs same day-type median)",
+   "severity": "warn"
+  },
+  {
+   "layer": "completeness",
+   "table_name": "orders",
+   "check_name": "distinct days with orders",
+   "severity": "error"
+  },
+  {
+   "layer": "completeness",
+   "table_name": "weather",
+   "check_name": "cities without exactly 720 hourly rows",
+   "severity": "error"
+  },
+  {
+   "layer": "gold",
+   "table_name": "dimensions",
+   "check_name": "duplicate dimension keys",
+   "severity": "error"
+  },
+  {
+   "layer": "gold",
+   "table_name": "fact_store_product_hour",
+   "check_name": "duplicate store-product-hour",
+   "severity": "error"
+  },
+  {
+   "layer": "gold",
+   "table_name": "fact_store_product_hour",
+   "check_name": "missing shelf readings = quarantined readings",
+   "severity": "error"
+  },
+  {
+   "layer": "gold",
+   "table_name": "fact_store_product_hour",
+   "check_name": "orphan date_key",
+   "severity": "error"
+  },
+  {
+   "layer": "gold",
+   "table_name": "fact_store_product_hour",
+   "check_name": "orphan product_id",
+   "severity": "error"
+  },
+  {
+   "layer": "gold",
+   "table_name": "fact_store_product_hour",
+   "check_name": "orphan store_id",
+   "severity": "error"
+  },
+  {
+   "layer": "gold",
+   "table_name": "fact_store_product_hour",
+   "check_name": "revenue = silver orders revenue",
+   "severity": "error"
+  },
+  {
+   "layer": "gold",
+   "table_name": "fact_store_product_hour",
+   "check_name": "row count = stores x products x hours",
+   "severity": "error"
+  },
+  {
+   "layer": "gold",
+   "table_name": "fact_store_product_hour",
+   "check_name": "stockout share is plausible",
+   "severity": "warn"
+  },
+  {
+   "layer": "gold",
+   "table_name": "fact_store_product_hour",
+   "check_name": "units sold = silver orders qty",
+   "severity": "error"
+  },
+  {
+   "layer": "gold",
+   "table_name": "mart_lost_sales_hourly_v2",
+   "check_name": "negative lost units",
+   "severity": "error"
+  },
+  {
+   "layer": "gold",
+   "table_name": "mart_lost_sales_hourly_v2",
+   "check_name": "one row per stockout hour",
+   "severity": "error"
+  },
+  {
+   "layer": "gold",
+   "table_name": "mart_weather_multipliers",
+   "check_name": "multipliers outside 0.8..3.0",
+   "severity": "error"
+  },
+  {
+   "layer": "model",
+   "table_name": "lost_sales_v2",
+   "check_name": "estimate / hidden truth (synthetic-only check)",
+   "severity": "warn"
+  },
+  {
+   "layer": "model",
+   "table_name": "restock_backtest",
+   "check_name": "precision on 29 Sep",
+   "severity": "warn"
+  },
+  {
+   "layer": "reconciliation",
+   "table_name": "inventory",
+   "check_name": "bronze rows = silver + quarantine + duplicates",
+   "severity": "error"
+  },
+  {
+   "layer": "reconciliation",
+   "table_name": "orders",
+   "check_name": "bronze rows = silver + quarantine + duplicates",
+   "severity": "error"
+  },
+  {
+   "layer": "reconciliation",
+   "table_name": "weather",
+   "check_name": "bronze rows = silver + quarantine + duplicates",
+   "severity": "error"
+  },
+  {
+   "layer": "silver",
+   "table_name": "inventory",
+   "check_name": "duplicate store-product-time",
+   "severity": "error"
+  },
+  {
+   "layer": "silver",
+   "table_name": "inventory",
+   "check_name": "negative shelf count",
+   "severity": "error"
+  },
+  {
+   "layer": "silver",
+   "table_name": "inventory",
+   "check_name": "null key columns",
+   "severity": "error"
+  },
+  {
+   "layer": "silver",
+   "table_name": "inventory",
+   "check_name": "orphan product_id",
+   "severity": "error"
+  },
+  {
+   "layer": "silver",
+   "table_name": "inventory",
+   "check_name": "orphan store_id",
+   "severity": "error"
+  },
+  {
+   "layer": "silver",
+   "table_name": "orders",
+   "check_name": "duplicate order_id",
+   "severity": "error"
+  },
+  {
+   "layer": "silver",
+   "table_name": "orders",
+   "check_name": "null key columns",
+   "severity": "error"
+  },
+  {
+   "layer": "silver",
+   "table_name": "orders",
+   "check_name": "order_date matches order_ts",
+   "severity": "error"
+  },
+  {
+   "layer": "silver",
+   "table_name": "orders",
+   "check_name": "orphan product_id",
+   "severity": "error"
+  },
+  {
+   "layer": "silver",
+   "table_name": "orders",
+   "check_name": "orphan store_id",
+   "severity": "error"
+  },
+  {
+   "layer": "silver",
+   "table_name": "orders",
+   "check_name": "qty <= 0",
+   "severity": "error"
+  },
+  {
+   "layer": "silver",
+   "table_name": "orders",
+   "check_name": "unit price <= 0",
+   "severity": "error"
+  },
+  {
+   "layer": "silver",
+   "table_name": "weather",
+   "check_name": "duplicate city-hour",
+   "severity": "error"
+  },
+  {
+   "layer": "silver",
+   "table_name": "weather",
+   "check_name": "negative rainfall",
+   "severity": "error"
+  },
+  {
+   "layer": "silver",
+   "table_name": "weather",
+   "check_name": "null key columns",
+   "severity": "error"
+  },
+  {
+   "layer": "silver",
+   "table_name": "weather",
+   "check_name": "temperature outside -10..55 C",
+   "severity": "error"
+  }
+ ],
+ "failures": [
+  {
+   "run_id": "e85a886b",
+   "layer": "gold",
+   "table_name": "fact_store_product_hour",
+   "check_name": "row count = stores x products x hours",
+   "severity": "error",
+   "value": "115200.0",
+   "expected": "= 115201"
+  },
+  {
+   "run_id": "fff295ab",
+   "layer": "gold",
+   "table_name": "fact_store_product_hour",
+   "check_name": "row count = stores x products x hours",
+   "severity": "error",
+   "value": "115200.0",
+   "expected": "= 115201"
+  },
+  {
+   "run_id": "d44e3ab1",
+   "layer": "gold",
+   "table_name": "fact_store_product_hour",
+   "check_name": "row count = stores x products x hours",
+   "severity": "error",
+   "value": "115200.0",
+   "expected": "= 115201"
+  },
+  {
+   "run_id": "6d0270a1",
+   "layer": "gold",
+   "table_name": "fact_store_product_hour",
+   "check_name": "row count = stores x products x hours",
+   "severity": "error",
+   "value": "115200.0",
+   "expected": "= 115201"
+  }
+ ]
+}

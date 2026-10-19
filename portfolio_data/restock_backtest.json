@@ -1,0 +1,89 @@
+{
+ "source": "notebook 05 Cell 7 output, in-sample backtest with actual weather as the forecast",
+ "days": [
+  {
+   "day": "2026-09-22",
+   "hit": 65,
+   "false_alarm": 14,
+   "miss": 15,
+   "correct_ok": 62,
+   "precision_pct": 82.3,
+   "recall_pct": 81.2,
+   "avg_timing_error_hours": 1.82
+  },
+  {
+   "day": "2026-09-23",
+   "hit": 62,
+   "false_alarm": 15,
+   "miss": 16,
+   "correct_ok": 64,
+   "precision_pct": 80.5,
+   "recall_pct": 79.5,
+   "avg_timing_error_hours": 1.61
+  },
+  {
+   "day": "2026-09-24",
+   "hit": 67,
+   "false_alarm": 18,
+   "miss": 8,
+   "correct_ok": 57,
+   "precision_pct": 78.8,
+   "recall_pct": 89.3,
+   "avg_timing_error_hours": 2.01
+  },
+  {
+   "day": "2026-09-25",
+   "hit": 64,
+   "false_alarm": 16,
+   "miss": 17,
+   "correct_ok": 53,
+   "precision_pct": 80.0,
+   "recall_pct": 79.0,
+   "avg_timing_error_hours": 1.91
+  },
+  {
+   "day": "2026-09-26",
+   "hit": 120,
+   "false_alarm": 6,
+   "miss": 13,
+   "correct_ok": 13,
+   "precision_pct": 95.2,
+   "recall_pct": 90.2,
+   "avg_timing_error_hours": 1.09
+  },
+  {
+   "day": "2026-09-27",
+   "hit": 110,
+   "false_alarm": 8,
+   "miss": 8,
+   "correct_ok": 19,
+   "precision_pct": 93.2,
+   "recall_pct": 93.2,
+   "avg_timing_error_hours": 1.27
+  },
+  {
+   "day": "2026-09-28",
+   "hit": 68,
+   "false_alarm": 14,
+   "miss": 9,
+   "correct_ok": 60,
+   "precision_pct": 82.9,
+   "recall_pct": 88.3,
+   "avg_timing_error_hours": 1.34
+  },
+  {
+   "day": "2026-09-29",
+   "hit": 68,
+   "false_alarm": 12,
+   "miss": 16,
+   "correct_ok": 60,
+   "precision_pct": 85.0,
+   "recall_pct": 81.0,
+   "avg_timing_error_hours": 1.85
+  }
+ ],
+ "all_days": {
+  "precision_pct": 85.8,
+  "recall_pct": 86.0
+ }
+}

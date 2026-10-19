@@ -1,0 +1,162 @@
+[
+ {
+  "product_id": "P001",
+  "product_name": "Toned Milk 500ml",
+  "model_rain": 1.212,
+  "true_rain": 1.25,
+  "model_heat": 0.964,
+  "true_heat": 1.0,
+  "rain_units": 2051,
+  "heat_units": 6312
+ },
+ {
+  "product_id": "P002",
+  "product_name": "Brown Bread 400g",
+  "model_rain": 1.132,
+  "true_rain": 1.25,
+  "model_heat": 1.001,
+  "true_heat": 1.0,
+  "rain_units": 1276,
+  "heat_units": 4126
+ },
+ {
+  "product_id": "P003",
+  "product_name": "Eggs 6 pack",
+  "model_rain": 1.235,
+  "true_rain": 1.25,
+  "model_heat": 0.997,
+  "true_heat": 1.0,
+  "rain_units": 1565,
+  "heat_units": 4865
+ },
+ {
+  "product_id": "P004",
+  "product_name": "Curd 400g",
+  "model_rain": 1.159,
+  "true_rain": 1.25,
+  "model_heat": 0.98,
+  "true_heat": 1.0,
+  "rain_units": 1088,
+  "heat_units": 3262
+ },
+ {
+  "product_id": "P005",
+  "product_name": "Bananas 1 dozen",
+  "model_rain": 1.138,
+  "true_rain": 1.25,
+  "model_heat": 0.969,
+  "true_heat": 1.0,
+  "rain_units": 873,
+  "heat_units": 2634
+ },
+ {
+  "product_id": "P006",
+  "product_name": "Tomato 500g",
+  "model_rain": 1.239,
+  "true_rain": 1.25,
+  "model_heat": 0.971,
+  "true_heat": 1.0,
+  "rain_units": 1224,
+  "heat_units": 3267
+ },
+ {
+  "product_id": "P007",
+  "product_name": "Onion 1kg",
+  "model_rain": 1.31,
+  "true_rain": 1.25,
+  "model_heat": 1.012,
+  "true_heat": 1.0,
+  "rain_units": 921,
+  "heat_units": 2480
+ },
+ {
+  "product_id": "P008",
+  "product_name": "Potato 1kg",
+  "model_rain": 1.148,
+  "true_rain": 1.25,
+  "model_heat": 0.989,
+  "true_heat": 1.0,
+  "rain_units": 688,
+  "heat_units": 2292
+ },
+ {
+  "product_id": "P009",
+  "product_name": "Instant Noodles",
+  "model_rain": 1.416,
+  "true_rain": 1.5,
+  "model_heat": 1.0,
+  "true_heat": 1.0,
+  "rain_units": 1478,
+  "heat_units": 3765
+ },
+ {
+  "product_id": "P010",
+  "product_name": "Potato Chips 50g",
+  "model_rain": 1.5,
+  "true_rain": 1.5,
+  "model_heat": 0.99,
+  "true_heat": 1.0,
+  "rain_units": 1223,
+  "heat_units": 3043
+ },
+ {
+  "product_id": "P011",
+  "product_name": "Cola 750ml",
+  "model_rain": 1.23,
+  "true_rain": 1.25,
+  "model_heat": 1.319,
+  "true_heat": 1.4,
+  "rain_units": 780,
+  "heat_units": 3108
+ },
+ {
+  "product_id": "P012",
+  "product_name": "Bottled Water 1L",
+  "model_rain": 1.24,
+  "true_rain": 1.25,
+  "model_heat": 1.332,
+  "true_heat": 1.4,
+  "rain_units": 542,
+  "heat_units": 2702
+ },
+ {
+  "product_id": "P013",
+  "product_name": "Ice Cream Cup",
+  "model_rain": 1.286,
+  "true_rain": 1.25,
+  "model_heat": 1.508,
+  "true_heat": 1.6,
+  "rain_units": 453,
+  "heat_units": 2005
+ },
+ {
+  "product_id": "P014",
+  "product_name": "Instant Coffee 50g",
+  "model_rain": 1.402,
+  "true_rain": 1.4,
+  "model_heat": 1.0,
+  "true_heat": 1.0,
+  "rain_units": 354,
+  "heat_units": 927
+ },
+ {
+  "product_id": "P015",
+  "product_name": "Pain Relief Strip",
+  "model_rain": 1.429,
+  "true_rain": 1.25,
+  "model_heat": 1.06,
+  "true_heat": 1.0,
+  "rain_units": 224,
+  "heat_units": 598
+ },
+ {
+  "product_id": "P016",
+  "product_name": "Detergent 1kg",
+  "model_rain": 1.148,
+  "true_rain": 1.25,
+  "model_heat": 1.005,
+  "true_heat": 1.0,
+  "rain_units": 131,
+  "heat_units": 382
+ }
+]

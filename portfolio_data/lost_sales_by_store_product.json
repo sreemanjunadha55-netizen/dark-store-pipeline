@@ -1,0 +1,232 @@
+{
+ "total_est_lost_revenue_inr": 1045558.0,
+ "top_15": [
+  {
+   "product_id": "P003",
+   "store_id": "S007",
+   "est_lost_units": 549.0,
+   "est_lost_revenue_inr": 32961.0,
+   "city": "Hyderabad",
+   "area": "Gachibowli",
+   "product_name": "Eggs 6 pack"
+  },
+  {
+   "product_id": "P003",
+   "store_id": "S008",
+   "est_lost_units": 486.0,
+   "est_lost_revenue_inr": 29161.0,
+   "city": "Hyderabad",
+   "area": "Kukatpally",
+   "product_name": "Eggs 6 pack"
+  },
+  {
+   "product_id": "P001",
+   "store_id": "S004",
+   "est_lost_units": 1003.0,
+   "est_lost_revenue_inr": 27089.0,
+   "city": "Mumbai",
+   "area": "Powai",
+   "product_name": "Toned Milk 500ml"
+  },
+  {
+   "product_id": "P003",
+   "store_id": "S003",
+   "est_lost_units": 411.0,
+   "est_lost_revenue_inr": 24681.0,
+   "city": "Mumbai",
+   "area": "Andheri",
+   "product_name": "Eggs 6 pack"
+  },
+  {
+   "product_id": "P005",
+   "store_id": "S004",
+   "est_lost_units": 397.0,
+   "est_lost_revenue_inr": 21841.0,
+   "city": "Mumbai",
+   "area": "Powai",
+   "product_name": "Bananas 1 dozen"
+  },
+  {
+   "product_id": "P005",
+   "store_id": "S007",
+   "est_lost_units": 389.0,
+   "est_lost_revenue_inr": 21394.0,
+   "city": "Hyderabad",
+   "area": "Gachibowli",
+   "product_name": "Bananas 1 dozen"
+  },
+  {
+   "product_id": "P001",
+   "store_id": "S003",
+   "est_lost_units": 675.0,
+   "est_lost_revenue_inr": 18234.0,
+   "city": "Mumbai",
+   "area": "Andheri",
+   "product_name": "Toned Milk 500ml"
+  },
+  {
+   "product_id": "P005",
+   "store_id": "S006",
+   "est_lost_units": 330.0,
+   "est_lost_revenue_inr": 18142.0,
+   "city": "Delhi",
+   "area": "Dwarka",
+   "product_name": "Bananas 1 dozen"
+  },
+  {
+   "product_id": "P003",
+   "store_id": "S002",
+   "est_lost_units": 275.0,
+   "est_lost_revenue_inr": 16517.0,
+   "city": "Bengaluru",
+   "area": "Whitefield",
+   "product_name": "Eggs 6 pack"
+  },
+  {
+   "product_id": "P003",
+   "store_id": "S004",
+   "est_lost_units": 272.0,
+   "est_lost_revenue_inr": 16321.0,
+   "city": "Mumbai",
+   "area": "Powai",
+   "product_name": "Eggs 6 pack"
+  },
+  {
+   "product_id": "P013",
+   "store_id": "S010",
+   "est_lost_units": 322.0,
+   "est_lost_revenue_inr": 16094.0,
+   "city": "Chennai",
+   "area": "Adyar",
+   "product_name": "Ice Cream Cup"
+  },
+  {
+   "product_id": "P002",
+   "store_id": "S002",
+   "est_lost_units": 354.0,
+   "est_lost_revenue_inr": 15908.0,
+   "city": "Bengaluru",
+   "area": "Whitefield",
+   "product_name": "Brown Bread 400g"
+  },
+  {
+   "product_id": "P011",
+   "store_id": "S004",
+   "est_lost_units": 396.0,
+   "est_lost_revenue_inr": 15854.0,
+   "city": "Mumbai",
+   "area": "Powai",
+   "product_name": "Cola 750ml"
+  },
+  {
+   "product_id": "P006",
+   "store_id": "S001",
+   "est_lost_units": 524.0,
+   "est_lost_revenue_inr": 15723.0,
+   "city": "Bengaluru",
+   "area": "Koramangala",
+   "product_name": "Tomato 500g"
+  },
+  {
+   "product_id": "P008",
+   "store_id": "S003",
+   "est_lost_units": 384.0,
+   "est_lost_revenue_inr": 15363.0,
+   "city": "Mumbai",
+   "area": "Andheri",
+   "product_name": "Potato 1kg"
+  }
+ ],
+ "by_city": [
+  {
+   "city": "Mumbai",
+   "est_lost_revenue_inr": 266198.0
+  },
+  {
+   "city": "Bengaluru",
+   "est_lost_revenue_inr": 219854.0
+  },
+  {
+   "city": "Hyderabad",
+   "est_lost_revenue_inr": 201819.0
+  },
+  {
+   "city": "Delhi",
+   "est_lost_revenue_inr": 196389.0
+  },
+  {
+   "city": "Chennai",
+   "est_lost_revenue_inr": 113486.0
+  },
+  {
+   "city": "Pune",
+   "est_lost_revenue_inr": 47812.0
+  }
+ ],
+ "by_product": [
+  {
+   "product_name": "Eggs 6 pack",
+   "est_lost_revenue_inr": 157747.0
+  },
+  {
+   "product_name": "Bananas 1 dozen",
+   "est_lost_revenue_inr": 106425.0
+  },
+  {
+   "product_name": "Instant Coffee 50g",
+   "est_lost_revenue_inr": 89164.0
+  },
+  {
+   "product_name": "Cola 750ml",
+   "est_lost_revenue_inr": 82260.0
+  },
+  {
+   "product_name": "Toned Milk 500ml",
+   "est_lost_revenue_inr": 81049.0
+  },
+  {
+   "product_name": "Ice Cream Cup",
+   "est_lost_revenue_inr": 79325.0
+  },
+  {
+   "product_name": "Potato 1kg",
+   "est_lost_revenue_inr": 71971.0
+  },
+  {
+   "product_name": "Onion 1kg",
+   "est_lost_revenue_inr": 55645.0
+  },
+  {
+   "product_name": "Detergent 1kg",
+   "est_lost_revenue_inr": 51228.0
+  },
+  {
+   "product_name": "Tomato 500g",
+   "est_lost_revenue_inr": 50515.0
+  },
+  {
+   "product_name": "Brown Bread 400g",
+   "est_lost_revenue_inr": 49636.0
+  },
+  {
+   "product_name": "Bottled Water 1L",
+   "est_lost_revenue_inr": 45144.0
+  },
+  {
+   "product_name": "Potato Chips 50g",
+   "est_lost_revenue_inr": 42976.0
+  },
+  {
+   "product_name": "Curd 400g",
+   "est_lost_revenue_inr": 36648.0
+  },
+  {
+   "product_name": "Instant Noodles",
+   "est_lost_revenue_inr": 31612.0
+  },
+  {
+   "product_name": "Pain Relief Strip",
+   "est_lost_revenue_inr": 14213.0
+  }
+ ]
+}

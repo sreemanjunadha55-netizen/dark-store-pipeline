@@ -1,0 +1,98 @@
+[
+ {
+  "product_id": "P001",
+  "product_name": "Toned Milk 500ml",
+  "category": "Dairy",
+  "price_inr": 27
+ },
+ {
+  "product_id": "P002",
+  "product_name": "Brown Bread 400g",
+  "category": "Bakery",
+  "price_inr": 45
+ },
+ {
+  "product_id": "P003",
+  "product_name": "Eggs 6 pack",
+  "category": "Dairy",
+  "price_inr": 60
+ },
+ {
+  "product_id": "P004",
+  "product_name": "Curd 400g",
+  "category": "Dairy",
+  "price_inr": 35
+ },
+ {
+  "product_id": "P005",
+  "product_name": "Bananas 1 dozen",
+  "category": "Fresh Produce",
+  "price_inr": 55
+ },
+ {
+  "product_id": "P006",
+  "product_name": "Tomato 500g",
+  "category": "Fresh Produce",
+  "price_inr": 30
+ },
+ {
+  "product_id": "P007",
+  "product_name": "Onion 1kg",
+  "category": "Fresh Produce",
+  "price_inr": 45
+ },
+ {
+  "product_id": "P008",
+  "product_name": "Potato 1kg",
+  "category": "Fresh Produce",
+  "price_inr": 40
+ },
+ {
+  "product_id": "P009",
+  "product_name": "Instant Noodles",
+  "category": "Packaged",
+  "price_inr": 14
+ },
+ {
+  "product_id": "P010",
+  "product_name": "Potato Chips 50g",
+  "category": "Snacks",
+  "price_inr": 20
+ },
+ {
+  "product_id": "P011",
+  "product_name": "Cola 750ml",
+  "category": "Beverages",
+  "price_inr": 40
+ },
+ {
+  "product_id": "P012",
+  "product_name": "Bottled Water 1L",
+  "category": "Beverages",
+  "price_inr": 20
+ },
+ {
+  "product_id": "P013",
+  "product_name": "Ice Cream Cup",
+  "category": "Frozen",
+  "price_inr": 50
+ },
+ {
+  "product_id": "P014",
+  "product_name": "Instant Coffee 50g",
+  "category": "Beverages",
+  "price_inr": 150
+ },
+ {
+  "product_id": "P015",
+  "product_name": "Pain Relief Strip",
+  "category": "Health",
+  "price_inr": 30
+ },
+ {
+  "product_id": "P016",
+  "product_name": "Detergent 1kg",
+  "category": "Household",
+  "price_inr": 120
+ }
+]

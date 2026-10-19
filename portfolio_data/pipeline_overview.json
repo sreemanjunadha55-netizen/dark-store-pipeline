@@ -1,0 +1,48 @@
+{
+ "bronze_rows": {
+  "orders": 168147,
+  "inventory": 115200,
+  "weather": 4320,
+  "stores": 10,
+  "products": 16
+ },
+ "silver_rows": {
+  "orders": 166482,
+  "inventory": 114970,
+  "weather": 4320,
+  "stores": 10,
+  "products": 16
+ },
+ "gold_rows": {
+  "dim_date": 31,
+  "dim_store": 10,
+  "dim_product": 16,
+  "fact_store_product_hour": 115200,
+  "mart_stockout_spells": 2974,
+  "mart_lost_sales_hourly_v2": 27109
+ },
+ "quarantine_rows": {
+  "orders": 0,
+  "inventory": 230,
+  "weather": 0
+ },
+ "duplicates_removed": {
+  "orders": 1665,
+  "inventory": 0,
+  "weather": 0,
+  "stores": 0,
+  "products": 0
+ },
+ "quarantine_reasons": [
+  {
+   "source_table": "inventory",
+   "reject_reason": "negative_qty",
+   "count": 230
+  }
+ ],
+ "totals": {
+  "units_sold": 207707,
+  "revenue_inr": 8196334,
+  "stockout_share": 0.23579194572497172
+ }
+}

@@ -1,0 +1,182 @@
+[
+ {
+  "date": "2026-09-01",
+  "orders": 5537,
+  "units": 6858,
+  "revenue_inr": 270039
+ },
+ {
+  "date": "2026-09-02",
+  "orders": 5496,
+  "units": 6790,
+  "revenue_inr": 267629
+ },
+ {
+  "date": "2026-09-03",
+  "orders": 5365,
+  "units": 6688,
+  "revenue_inr": 264599
+ },
+ {
+  "date": "2026-09-04",
+  "orders": 5478,
+  "units": 6822,
+  "revenue_inr": 271318
+ },
+ {
+  "date": "2026-09-05",
+  "orders": 5927,
+  "units": 7479,
+  "revenue_inr": 296215
+ },
+ {
+  "date": "2026-09-06",
+  "orders": 5783,
+  "units": 7307,
+  "revenue_inr": 289173
+ },
+ {
+  "date": "2026-09-07",
+  "orders": 5331,
+  "units": 6687,
+  "revenue_inr": 262723
+ },
+ {
+  "date": "2026-09-08",
+  "orders": 5432,
+  "units": 6673,
+  "revenue_inr": 264202
+ },
+ {
+  "date": "2026-09-09",
+  "orders": 5362,
+  "units": 6689,
+  "revenue_inr": 264710
+ },
+ {
+  "date": "2026-09-10",
+  "orders": 5536,
+  "units": 6878,
+  "revenue_inr": 270141
+ },
+ {
+  "date": "2026-09-11",
+  "orders": 5485,
+  "units": 6787,
+  "revenue_inr": 268556
+ },
+ {
+  "date": "2026-09-12",
+  "orders": 5975,
+  "units": 7503,
+  "revenue_inr": 295295
+ },
+ {
+  "date": "2026-09-13",
+  "orders": 5805,
+  "units": 7383,
+  "revenue_inr": 291920
+ },
+ {
+  "date": "2026-09-14",
+  "orders": 5398,
+  "units": 6739,
+  "revenue_inr": 266511
+ },
+ {
+  "date": "2026-09-15",
+  "orders": 5526,
+  "units": 6805,
+  "revenue_inr": 268292
+ },
+ {
+  "date": "2026-09-16",
+  "orders": 5421,
+  "units": 6712,
+  "revenue_inr": 265144
+ },
+ {
+  "date": "2026-09-17",
+  "orders": 5515,
+  "units": 6797,
+  "revenue_inr": 268239
+ },
+ {
+  "date": "2026-09-18",
+  "orders": 5507,
+  "units": 6821,
+  "revenue_inr": 270178
+ },
+ {
+  "date": "2026-09-19",
+  "orders": 5888,
+  "units": 7469,
+  "revenue_inr": 295009
+ },
+ {
+  "date": "2026-09-20",
+  "orders": 5755,
+  "units": 7291,
+  "revenue_inr": 286267
+ },
+ {
+  "date": "2026-09-21",
+  "orders": 5336,
+  "units": 6648,
+  "revenue_inr": 262367
+ },
+ {
+  "date": "2026-09-22",
+  "orders": 5463,
+  "units": 6799,
+  "revenue_inr": 268420
+ },
+ {
+  "date": "2026-09-23",
+  "orders": 5369,
+  "units": 6649,
+  "revenue_inr": 263114
+ },
+ {
+  "date": "2026-09-24",
+  "orders": 5423,
+  "units": 6717,
+  "revenue_inr": 263799
+ },
+ {
+  "date": "2026-09-25",
+  "orders": 5473,
+  "units": 6781,
+  "revenue_inr": 265897
+ },
+ {
+  "date": "2026-09-26",
+  "orders": 5912,
+  "units": 7464,
+  "revenue_inr": 294322
+ },
+ {
+  "date": "2026-09-27",
+  "orders": 5738,
+  "units": 7266,
+  "revenue_inr": 286747
+ },
+ {
+  "date": "2026-09-28",
+  "orders": 5326,
+  "units": 6685,
+  "revenue_inr": 261994
+ },
+ {
+  "date": "2026-09-29",
+  "orders": 5473,
+  "units": 6753,
+  "revenue_inr": 265721
+ },
+ {
+  "date": "2026-09-30",
+  "orders": 5447,
+  "units": 6767,
+  "revenue_inr": 267793
+ }
+]

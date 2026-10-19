@@ -1,0 +1,202 @@
+{
+ "store_id": "S002",
+ "city": "Bengaluru",
+ "area": "Whitefield",
+ "product_id": "P007",
+ "product_name": "Onion 1kg",
+ "date_key": 20260901,
+ "hours": [
+  {
+   "hour_of_day": 0,
+   "units_sold": 0,
+   "end_of_hour_qty": 31,
+   "is_stockout": false,
+   "is_rainy": false,
+   "is_hot": false
+  },
+  {
+   "hour_of_day": 1,
+   "units_sold": 0,
+   "end_of_hour_qty": 31,
+   "is_stockout": false,
+   "is_rainy": false,
+   "is_hot": false
+  },
+  {
+   "hour_of_day": 2,
+   "units_sold": 0,
+   "end_of_hour_qty": 31,
+   "is_stockout": false,
+   "is_rainy": false,
+   "is_hot": false
+  },
+  {
+   "hour_of_day": 3,
+   "units_sold": 0,
+   "end_of_hour_qty": 31,
+   "is_stockout": false,
+   "is_rainy": false,
+   "is_hot": false
+  },
+  {
+   "hour_of_day": 4,
+   "units_sold": 0,
+   "end_of_hour_qty": 31,
+   "is_stockout": false,
+   "is_rainy": false,
+   "is_hot": false
+  },
+  {
+   "hour_of_day": 5,
+   "units_sold": 0,
+   "end_of_hour_qty": 31,
+   "is_stockout": false,
+   "is_rainy": false,
+   "is_hot": false
+  },
+  {
+   "hour_of_day": 6,
+   "units_sold": 3,
+   "end_of_hour_qty": 28,
+   "is_stockout": false,
+   "is_rainy": false,
+   "is_hot": false
+  },
+  {
+   "hour_of_day": 7,
+   "units_sold": 3,
+   "end_of_hour_qty": 25,
+   "is_stockout": false,
+   "is_rainy": false,
+   "is_hot": false
+  },
+  {
+   "hour_of_day": 8,
+   "units_sold": 1,
+   "end_of_hour_qty": 24,
+   "is_stockout": false,
+   "is_rainy": false,
+   "is_hot": false
+  },
+  {
+   "hour_of_day": 9,
+   "units_sold": 3,
+   "end_of_hour_qty": 21,
+   "is_stockout": false,
+   "is_rainy": false,
+   "is_hot": false
+  },
+  {
+   "hour_of_day": 10,
+   "units_sold": 4,
+   "end_of_hour_qty": 17,
+   "is_stockout": false,
+   "is_rainy": false,
+   "is_hot": false
+  },
+  {
+   "hour_of_day": 11,
+   "units_sold": 1,
+   "end_of_hour_qty": 16,
+   "is_stockout": false,
+   "is_rainy": false,
+   "is_hot": false
+  },
+  {
+   "hour_of_day": 12,
+   "units_sold": 2,
+   "end_of_hour_qty": 14,
+   "is_stockout": false,
+   "is_rainy": false,
+   "is_hot": false
+  },
+  {
+   "hour_of_day": 13,
+   "units_sold": 5,
+   "end_of_hour_qty": 9,
+   "is_stockout": false,
+   "is_rainy": false,
+   "is_hot": false
+  },
+  {
+   "hour_of_day": 14,
+   "units_sold": 1,
+   "end_of_hour_qty": 8,
+   "is_stockout": false,
+   "is_rainy": false,
+   "is_hot": false
+  },
+  {
+   "hour_of_day": 15,
+   "units_sold": 2,
+   "end_of_hour_qty": 6,
+   "is_stockout": false,
+   "is_rainy": false,
+   "is_hot": false
+  },
+  {
+   "hour_of_day": 16,
+   "units_sold": 0,
+   "end_of_hour_qty": 6,
+   "is_stockout": false,
+   "is_rainy": false,
+   "is_hot": false
+  },
+  {
+   "hour_of_day": 17,
+   "units_sold": 4,
+   "end_of_hour_qty": 2,
+   "is_stockout": false,
+   "is_rainy": false,
+   "is_hot": false
+  },
+  {
+   "hour_of_day": 18,
+   "units_sold": 2,
+   "end_of_hour_qty": 0,
+   "is_stockout": true,
+   "is_rainy": false,
+   "is_hot": false
+  },
+  {
+   "hour_of_day": 19,
+   "units_sold": 0,
+   "end_of_hour_qty": 0,
+   "is_stockout": true,
+   "is_rainy": false,
+   "is_hot": false
+  },
+  {
+   "hour_of_day": 20,
+   "units_sold": 0,
+   "end_of_hour_qty": 0,
+   "is_stockout": true,
+   "is_rainy": false,
+   "is_hot": false
+  },
+  {
+   "hour_of_day": 21,
+   "units_sold": 0,
+   "end_of_hour_qty": 0,
+   "is_stockout": true,
+   "is_rainy": false,
+   "is_hot": false
+  },
+  {
+   "hour_of_day": 22,
+   "units_sold": 0,
+   "end_of_hour_qty": 0,
+   "is_stockout": true,
+   "is_rainy": false,
+   "is_hot": false
+  },
+  {
+   "hour_of_day": 23,
+   "units_sold": 0,
+   "end_of_hour_qty": 0,
+   "is_stockout": true,
+   "is_rainy": false,
+   "is_hot": false
+  }
+ ]
+}

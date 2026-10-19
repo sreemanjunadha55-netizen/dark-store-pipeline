@@ -1,0 +1,136 @@
+{
+ "slices": [
+  {
+   "slice": "all stockout hours",
+   "true_units": 27848,
+   "est_before_weather": 25378.084206234296,
+   "est_after_weather": 26237.984254950556
+  },
+  {
+   "slice": "rainy",
+   "true_units": 3121,
+   "est_before_weather": 2235.90258997985,
+   "est_after_weather": 2878.6950299506884
+  },
+  {
+   "slice": "dry",
+   "true_units": 24727,
+   "est_before_weather": 23142.18161625437,
+   "est_after_weather": 23359.289224999826
+  },
+  {
+   "slice": "hot",
+   "true_units": 1628,
+   "est_before_weather": 1389.827843168492,
+   "est_after_weather": 1609.093358795879
+  },
+  {
+   "slice": "not hot",
+   "true_units": 26220,
+   "est_before_weather": 23988.256363065775,
+   "est_after_weather": 24628.89089615472
+  }
+ ],
+ "by_hour": [
+  {
+   "hour_of_day": 0,
+   "true_units": 1071,
+   "est_units": 1099.7350476122149
+  },
+  {
+   "hour_of_day": 1,
+   "true_units": 527,
+   "est_units": 543.0575366989028
+  },
+  {
+   "hour_of_day": 2,
+   "true_units": 529,
+   "est_units": 539.4084000870081
+  },
+  {
+   "hour_of_day": 3,
+   "true_units": 560,
+   "est_units": 555.9676008620079
+  },
+  {
+   "hour_of_day": 4,
+   "true_units": 1141,
+   "est_units": 1061.8176079898553
+  },
+  {
+   "hour_of_day": 5,
+   "true_units": 2396,
+   "est_units": 2225.3724863332586
+  },
+  {
+   "hour_of_day": 10,
+   "true_units": 1,
+   "est_units": 0.0
+  },
+  {
+   "hour_of_day": 11,
+   "true_units": 2,
+   "est_units": 2.212512070489682
+  },
+  {
+   "hour_of_day": 12,
+   "true_units": 7,
+   "est_units": 4.116303224167361
+  },
+  {
+   "hour_of_day": 13,
+   "true_units": 12,
+   "est_units": 9.230131088430051
+  },
+  {
+   "hour_of_day": 14,
+   "true_units": 32,
+   "est_units": 27.10188688760973
+  },
+  {
+   "hour_of_day": 15,
+   "true_units": 67,
+   "est_units": 65.83430603074575
+  },
+  {
+   "hour_of_day": 16,
+   "true_units": 149,
+   "est_units": 133.39054319155068
+  },
+  {
+   "hour_of_day": 17,
+   "true_units": 403,
+   "est_units": 366.20294181012895
+  },
+  {
+   "hour_of_day": 18,
+   "true_units": 1142,
+   "est_units": 989.4616982486862
+  },
+  {
+   "hour_of_day": 19,
+   "true_units": 2732,
+   "est_units": 2682.7531928848034
+  },
+  {
+   "hour_of_day": 20,
+   "true_units": 4749,
+   "est_units": 4421.141193510716
+  },
+  {
+   "hour_of_day": 21,
+   "true_units": 5731,
+   "est_units": 5458.852124967459
+  },
+  {
+   "hour_of_day": 22,
+   "true_units": 4348,
+   "est_units": 3884.268653723373
+  },
+  {
+   "hour_of_day": 23,
+   "true_units": 2249,
+   "est_units": 2168.0600877289307
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+[
+ {
+  "store_id": "S001",
+  "city": "Bengaluru",
+  "area": "Koramangala",
+  "latitude": 12.9352,
+  "longitude": 77.6245
+ },
+ {
+  "store_id": "S002",
+  "city": "Bengaluru",
+  "area": "Whitefield",
+  "latitude": 12.9698,
+  "longitude": 77.75
+ },
+ {
+  "store_id": "S003",
+  "city": "Mumbai",
+  "area": "Andheri",
+  "latitude": 19.1136,
+  "longitude": 72.8697
+ },
+ {
+  "store_id": "S004",
+  "city": "Mumbai",
+  "area": "Powai",
+  "latitude": 19.1176,
+  "longitude": 72.906
+ },
+ {
+  "store_id": "S005",
+  "city": "Delhi",
+  "area": "Saket",
+  "latitude": 28.5245,
+  "longitude": 77.2066
+ },
+ {
+  "store_id": "S006",
+  "city": "Delhi",
+  "area": "Dwarka",
+  "latitude": 28.5823,
+  "longitude": 77.05
+ },
+ {
+  "store_id": "S007",
+  "city": "Hyderabad",
+  "area": "Gachibowli",
+  "latitude": 17.4401,
+  "longitude": 78.3489
+ },
+ {
+  "store_id": "S008",
+  "city": "Hyderabad",
+  "area": "Kukatpally",
+  "latitude": 17.4948,
+  "longitude": 78.3996
+ },
+ {
+  "store_id": "S009",
+  "city": "Pune",
+  "area": "Kothrud",
+  "latitude": 18.5074,
+  "longitude": 73.8077
+ },
+ {
+  "store_id": "S010",
+  "city": "Chennai",
+  "area": "Adyar",
+  "latitude": 13.0012,
+  "longitude": 80.2565
+ }
+]
