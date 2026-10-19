@@ -8,10 +8,10 @@ param location string = resourceGroup().location
 param storageAccountName string = 'stdarkstore55'
 
 @description('Globally unique key vault name (3-24 characters)')
-param keyVaultName string = 'kv-darkstore-55'
+param keyVaultName string = 'kv-darkstore-46'
 
 @description('Name of the managed resource group Databricks creates for its machines')
-param databricksManagedRgName string = 'databricks-rg-dbw-darkstore-dev-managed'
+param databricksManagedRgName string = 'databricks-rg-dbw-darkstore-dev-sq7p763kubshs'
 
 var containerNames = [
   'landing'
