@@ -1,0 +1,175 @@
+{
+ "as_of": "2026-09-29 16:00, forecast until the 06:00 restock",
+ "counts": {
+  "store_products_scored": 156,
+  "predicted_run_out": 80,
+  "actually_ran_out": 84
+ },
+ "top_15": [
+  {
+   "store_id": "S007",
+   "city": "Hyderabad",
+   "area": "Gachibowli",
+   "product_name": "Bananas 1 dozen",
+   "stock_now": 8,
+   "pred_hours_until_empty": 3.0,
+   "actual_hours_until_empty": 3.0,
+   "actual_run_out": true,
+   "revenue_at_risk_inr": 1032.0
+  },
+  {
+   "store_id": "S002",
+   "city": "Bengaluru",
+   "area": "Whitefield",
+   "product_name": "Brown Bread 400g",
+   "stock_now": 12,
+   "pred_hours_until_empty": 4.0,
+   "actual_hours_until_empty": 4.0,
+   "actual_run_out": true,
+   "revenue_at_risk_inr": 798.0
+  },
+  {
+   "store_id": "S006",
+   "city": "Delhi",
+   "area": "Dwarka",
+   "product_name": "Bananas 1 dozen",
+   "stock_now": 18,
+   "pred_hours_until_empty": 5.0,
+   "actual_hours_until_empty": 4.0,
+   "actual_run_out": true,
+   "revenue_at_risk_inr": 695.0
+  },
+  {
+   "store_id": "S006",
+   "city": "Delhi",
+   "area": "Dwarka",
+   "product_name": "Tomato 500g",
+   "stock_now": 15,
+   "pred_hours_until_empty": 4.0,
+   "actual_hours_until_empty": 4.0,
+   "actual_run_out": true,
+   "revenue_at_risk_inr": 694.0
+  },
+  {
+   "store_id": "S007",
+   "city": "Hyderabad",
+   "area": "Gachibowli",
+   "product_name": "Eggs 6 pack",
+   "stock_now": 32,
+   "pred_hours_until_empty": 6.0,
+   "actual_hours_until_empty": 5.0,
+   "actual_run_out": true,
+   "revenue_at_risk_inr": 687.0
+  },
+  {
+   "store_id": "S010",
+   "city": "Chennai",
+   "area": "Adyar",
+   "product_name": "Ice Cream Cup",
+   "stock_now": 12,
+   "pred_hours_until_empty": 4.0,
+   "actual_hours_until_empty": 6.0,
+   "actual_run_out": true,
+   "revenue_at_risk_inr": 669.0
+  },
+  {
+   "store_id": "S008",
+   "city": "Hyderabad",
+   "area": "Kukatpally",
+   "product_name": "Eggs 6 pack",
+   "stock_now": 32,
+   "pred_hours_until_empty": 6.0,
+   "actual_hours_until_empty": 5.0,
+   "actual_run_out": true,
+   "revenue_at_risk_inr": 662.0
+  },
+  {
+   "store_id": "S004",
+   "city": "Mumbai",
+   "area": "Powai",
+   "product_name": "Eggs 6 pack",
+   "stock_now": 35,
+   "pred_hours_until_empty": 6.0,
+   "actual_hours_until_empty": 6.0,
+   "actual_run_out": true,
+   "revenue_at_risk_inr": 562.0
+  },
+  {
+   "store_id": "S002",
+   "city": "Bengaluru",
+   "area": "Whitefield",
+   "product_name": "Instant Coffee 50g",
+   "stock_now": 3,
+   "pred_hours_until_empty": 4.0,
+   "actual_hours_until_empty": 1.0,
+   "actual_run_out": true,
+   "revenue_at_risk_inr": 546.0
+  },
+  {
+   "store_id": "S004",
+   "city": "Mumbai",
+   "area": "Powai",
+   "product_name": "Toned Milk 500ml",
+   "stock_now": 40,
+   "pred_hours_until_empty": 5.0,
+   "actual_hours_until_empty": 5.0,
+   "actual_run_out": true,
+   "revenue_at_risk_inr": 544.0
+  },
+  {
+   "store_id": "S004",
+   "city": "Mumbai",
+   "area": "Powai",
+   "product_name": "Cola 750ml",
+   "stock_now": 11,
+   "pred_hours_until_empty": 4.0,
+   "actual_hours_until_empty": 3.0,
+   "actual_run_out": true,
+   "revenue_at_risk_inr": 503.0
+  },
+  {
+   "store_id": "S008",
+   "city": "Hyderabad",
+   "area": "Kukatpally",
+   "product_name": "Cola 750ml",
+   "stock_now": 14,
+   "pred_hours_until_empty": 4.0,
+   "actual_hours_until_empty": 4.0,
+   "actual_run_out": true,
+   "revenue_at_risk_inr": 495.0
+  },
+  {
+   "store_id": "S001",
+   "city": "Bengaluru",
+   "area": "Koramangala",
+   "product_name": "Tomato 500g",
+   "stock_now": 18,
+   "pred_hours_until_empty": 5.0,
+   "actual_hours_until_empty": 4.0,
+   "actual_run_out": true,
+   "revenue_at_risk_inr": 458.0
+  },
+  {
+   "store_id": "S002",
+   "city": "Bengaluru",
+   "area": "Whitefield",
+   "product_name": "Potato Chips 50g",
+   "stock_now": 3,
+   "pred_hours_until_empty": 2.0,
+   "actual_hours_until_empty": 1.0,
+   "actual_run_out": true,
+   "revenue_at_risk_inr": 440.0
+  },
+  {
+   "store_id": "S003",
+   "city": "Mumbai",
+   "area": "Andheri",
+   "product_name": "Bottled Water 1L",
+   "stock_now": 2,
+   "pred_hours_until_empty": 1.0,
+   "actual_hours_until_empty": 2.0,
+   "actual_run_out": true,
+   "revenue_at_risk_inr": 411.0
+  }
+ ]
+}

@@ -1,0 +1,170 @@
+[
+ {
+  "layer": "bronze",
+  "table": "orders",
+  "rows": 168147,
+  "files": 30,
+  "size_kb": 2204
+ },
+ {
+  "layer": "bronze",
+  "table": "inventory",
+  "rows": 115200,
+  "files": 31,
+  "size_kb": 220
+ },
+ {
+  "layer": "bronze",
+  "table": "weather",
+  "rows": 4320,
+  "files": 30,
+  "size_kb": 129
+ },
+ {
+  "layer": "bronze",
+  "table": "stores",
+  "rows": 10,
+  "files": 1,
+  "size_kb": 3
+ },
+ {
+  "layer": "bronze",
+  "table": "products",
+  "rows": 16,
+  "files": 1,
+  "size_kb": 4
+ },
+ {
+  "layer": "silver",
+  "table": "orders",
+  "rows": 166482,
+  "files": 30,
+  "size_kb": 2392
+ },
+ {
+  "layer": "silver",
+  "table": "inventory",
+  "rows": 114970,
+  "files": 30,
+  "size_kb": 421
+ },
+ {
+  "layer": "silver",
+  "table": "weather",
+  "rows": 4320,
+  "files": 30,
+  "size_kb": 139
+ },
+ {
+  "layer": "silver",
+  "table": "stores",
+  "rows": 10,
+  "files": 1,
+  "size_kb": 3
+ },
+ {
+  "layer": "silver",
+  "table": "products",
+  "rows": 16,
+  "files": 1,
+  "size_kb": 4
+ },
+ {
+  "layer": "silver",
+  "table": "_run_log",
+  "rows": 75,
+  "files": 75,
+  "size_kb": 172
+ },
+ {
+  "layer": "gold",
+  "table": "dim_date",
+  "rows": 31,
+  "files": 1,
+  "size_kb": 2
+ },
+ {
+  "layer": "gold",
+  "table": "dim_store",
+  "rows": 10,
+  "files": 1,
+  "size_kb": 2
+ },
+ {
+  "layer": "gold",
+  "table": "dim_product",
+  "rows": 16,
+  "files": 1,
+  "size_kb": 2
+ },
+ {
+  "layer": "gold",
+  "table": "fact_store_product_hour",
+  "rows": 115200,
+  "files": 1,
+  "size_kb": 359
+ },
+ {
+  "layer": "gold",
+  "table": "mart_stockout_spells",
+  "rows": 2974,
+  "files": 1,
+  "size_kb": 15
+ },
+ {
+  "layer": "gold",
+  "table": "mart_demand_level",
+  "rows": 160,
+  "files": 1,
+  "size_kb": 3
+ },
+ {
+  "layer": "gold",
+  "table": "mart_demand_shape",
+  "rows": 48,
+  "files": 1,
+  "size_kb": 2
+ },
+ {
+  "layer": "gold",
+  "table": "mart_weather_multipliers",
+  "rows": 16,
+  "files": 1,
+  "size_kb": 2
+ },
+ {
+  "layer": "gold",
+  "table": "mart_lost_sales_hourly",
+  "rows": 27109,
+  "files": 1,
+  "size_kb": 254
+ },
+ {
+  "layer": "gold",
+  "table": "mart_lost_sales_hourly_v2",
+  "rows": 27109,
+  "files": 1,
+  "size_kb": 309
+ },
+ {
+  "layer": "gold",
+  "table": "mart_lost_sales_by_store_product",
+  "rows": 160,
+  "files": 1,
+  "size_kb": 5
+ },
+ {
+  "layer": "gold",
+  "table": "mart_restock_priority_backtest",
+  "rows": 156,
+  "files": 1,
+  "size_kb": 6
+ },
+ {
+  "layer": "gold",
+  "table": "ops_dq_results",
+  "rows": 722,
+  "files": 64,
+  "size_kb": 251
+ }
+]
