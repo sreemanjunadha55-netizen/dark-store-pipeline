@@ -9,3 +9,4 @@ __pycache__/
 spark-warehouse/
 metastore_db/
 derby.log
+portfolio_screenshots/
